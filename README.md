@@ -18,25 +18,24 @@ npm install webpack -g
 Checkout the project and navigate using your terminal to the base folder of this projects contents.
 
 Once in the base directory run the following command to install all the nodule_modules defined in the package.json
-```Text
-npm install
-```
+
+$ npm install
+
 
 After the downloads complete webpack can be ran to create the "build" folder which will have all resources compacted as defined in the webpack.config.js
 
 For production (optimized)
-```Text
-webpack -p
-```
+
+$ webpack -p
+
 
 For development leave off the -p param
-```Text
-webpack
-```
+
+$ webpack
+
 
 Webpack comes with a default development server. To see the example project functioning, run the project in watch mode and navigate to http://localhost:8080/webpack-dev-server/
 
 Run in watch mode (scans for resouce changes)
-```Text
-webpack-dev-server --inline
-```
+
+
