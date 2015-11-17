@@ -5,14 +5,13 @@ The project is to be used as a starter template for designing a site using Backb
 You must have NPM installed and Webpack.
 
 On CentOS:
-```Text
-yum install -y nodejs
-```
+
+    $ yum install -y nodejs
+
 
 To install Webpack globally
-```Text
-npm install webpack -g
-```
+
+    $ npm install webpack -g
 
 #Usage
 Checkout the project and navigate using your terminal to the base folder of this projects contents.
@@ -36,6 +35,6 @@ For development leave off the -p param
 
 Webpack comes with a default development server. To see the example project functioning, run the project in watch mode and navigate to http://localhost:8080/webpack-dev-server/
 
-Run in watch mode (scans for resouce changes)
+Run in watch mode (scans for resources changes)
 
-
+    $ webpack-dev-server --inline
