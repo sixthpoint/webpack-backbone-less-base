@@ -5,10 +5,14 @@ The project is to be used as a starter template for designing a site using Backb
 You must have NPM installed and Webpack.
 
 On CentOS:
-```yum install -y nodejs
+```Text
+yum install -y nodejs
+```
 
 To install Webpack globally
-```npm install webpack -g
+```Text
+npm install webpack -g
+```
 
 #Usage
 todo
