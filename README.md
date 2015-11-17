@@ -1,5 +1,19 @@
 # Preface
-The project is to be used as a starter template for designing a site using BackboneJS, LESS (Bootstrap CSS + Font-Awesome), and Webpack as a modular bundler.
+This project is to be used as a starter template for designing a site using Webpack modular bundler. It includes BackboneJS using commonJS.
+
+To add additional features the following webpack plugins have been included.
+
+- extract-text-webpack-plugin - used to generate a single separate CSS file to include
+- url-loader - allows for loading of resources such as otf|eot|png|svg|ttf|woff|woff2 depending on file size
+- css-loader - load .css files
+- less-loader - used to parse less files (bootstrap / font-awesome included)
+- autoprefixer-loader - write your CSS rules without vendor prefixes 
+
+The following libraries have been included to design the site
+
+- BackboneJS 1.2.x
+- Bootstrap CSS (LESS) / Javascript
+- Font-Awesome (LESS)
 
 #Installation / Requirements
 You must have NPM installed and Webpack.
