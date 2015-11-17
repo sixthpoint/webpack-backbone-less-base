@@ -1,6 +1,6 @@
 {
-    "name": "WamegoSelfStorage.com",
-    "description": "Site designed in webpack",
+    "name": "webpack-backbone-less-base",
+    "description": "A starter template for designing a site using BackboneJS, LESS, and Webpack.",
     "version": "0.0.1",
     "main": "./app.js",
     "author": {
@@ -10,10 +10,10 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "git://github.com/sixthpoint/wamegoselfstorage.git"
+        "url": "git://github.com/sixthpoint/webpack-backbone-less-base.git"
     },
     "bugs": {
-        "url": "http://github.com/sixthpoint/wamegoselfstorage/issues"
+        "url": "http://github.com/sixthpoint/webpack-backbone-less-base/issues"
     },
     "devDependencies": {
         "css-loader": "^0.22.0",
