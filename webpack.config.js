@@ -6,8 +6,7 @@ var webpack = require('webpack'),
 module.exports = {
     context: path.resolve('js'),
     entry: {
-        app: './app.js',
-        vendors: ['html5shiv']
+        app: './app.js'
     },
     output: {
         path: path.resolve('build/'),
@@ -39,7 +38,6 @@ module.exports = {
             Backbone: "backbone",
             _: "underscore"
         }),
-        new ExtractTextPlugin("styles.css"),
-        new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.js')
+        new ExtractTextPlugin("styles.css")
     ]
 };
