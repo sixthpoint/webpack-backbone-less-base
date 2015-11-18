@@ -12,8 +12,8 @@ module.exports = {
     module: {
         loaders: [
             {
-                test:  /\.(otf|eot|png|svg|ttf|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-                loader: "url-loader?limit=8192"
+                test:  /\.(otf|eot|png|jpg|svg|ttf|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                loader: "url-loader?limit=8192"// inline base64 URLs for <=8k images, direct URLs for the rest
             },
             {
                 test: /\.less$/,
@@ -24,11 +24,6 @@ module.exports = {
                 test: /\.css$/,
                 exclude: /node_modules/,
                 loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader")
-            },
-            {
-                test: /\.(png|jpg)$/,
-                exclude: /node_modules/,
-                loader: 'url-loader?limit=8192'// inline base64 URLs for <=8k images, direct URLs for the rest
             }
         ]
     },
