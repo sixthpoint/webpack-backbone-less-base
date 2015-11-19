@@ -20,6 +20,11 @@ module.exports = {
                 loader: "url-loader?limit=8192"// inline base64 URLs for <=8k images, direct URLs for the rest
             },
             {
+                test: /\.ejs$/,
+                exclude: [node_modules_dir],
+                loader: "ejs-loader"
+            },
+            {
                 test: /\.less$/,
                 exclude: [node_modules_dir],
                 loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader!less-loader")

@@ -8,6 +8,7 @@ To add additional features the following webpack plugins have been included.
 - css-loader - load .css files
 - less-loader - used to parse less files (bootstrap / font-awesome included)
 - autoprefixer-loader - write your CSS rules without vendor prefixes 
+- ejs-loader - EJS (Underscore/LoDash Templates) loader for webpack. Uses lodash template function to compile templates.
 
 The following libraries have been included to design the site
 
