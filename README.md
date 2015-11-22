@@ -16,7 +16,9 @@ The following libraries have been included to design the site
 - Bootstrap CSS (LESS) / Javascript
 - Font-Awesome (LESS)
 
-#Installation / Requirements
+Installation / Requirements
+----------------------------
+
 You must have NPM installed and Webpack.
 
 On CentOS:
@@ -28,7 +30,9 @@ To install Webpack globally
 
     $ npm install webpack -g
 
-#Usage
+Usage
+------
+
 Checkout the project and navigate using your terminal to the base folder of this projects contents.
 
 Once in the base directory run the following command to install all the nodule_modules defined in the package.json
